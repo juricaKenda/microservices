@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="aggregator-microservice" target="11" />
+      <module name="aggregator-microservice.main" target="11" />
+      <module name="aggregator-microservice.test" target="11" />
+      <module name="config-server-microservice" target="11" />
+      <module name="config-server-microservice.main" target="11" />
+      <module name="config-server-microservice.test" target="11" />
+      <module name="eureka-server" target="11" />
+      <module name="eureka-server.main" target="11" />
+      <module name="eureka-server.test" target="11" />
+      <module name="humidity-microservice" target="11" />
+      <module name="humidity-microservice.main" target="11" />
+      <module name="humidity-microservice.test" target="11" />
+      <module name="temperature-microservice" target="11" />
+      <module name="temperature-microservice.main" target="11" />
+      <module name="temperature-microservice.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
