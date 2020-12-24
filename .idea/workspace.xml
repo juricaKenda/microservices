@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1663346d-f059-4470-82db-5bffe68f4235" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/controller/Entrypoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/controller/Entrypoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/repository/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/util/TemperatureLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/util/TemperatureLoaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -70,11 +72,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.lti.util" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.AggregatorMicroserviceApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -136,7 +149,7 @@
       <workItem from="1608738730045" duration="46000" />
       <workItem from="1608740970855" duration="1431000" />
       <workItem from="1608829967929" duration="164000" />
-      <workItem from="1608830137034" duration="1297000" />
+      <workItem from="1608830137034" duration="2376000" />
     </task>
     <servers />
   </component>
