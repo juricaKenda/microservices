@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1663346d-f059-4470-82db-5bffe68f4235" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/util/Measurement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/measurements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/measurements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/util/TemperatureLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/util/TemperatureLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/test/java/com/lti/util/TemperatureLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/test/java/com/lti/util/TemperatureLoaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/microservices/temperature-microservice">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -65,6 +67,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="h2" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -83,6 +86,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -93,13 +97,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.TemperatureLoaderTest.getTemperaturesTest">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -178,7 +184,8 @@
       <workItem from="1608738730045" duration="46000" />
       <workItem from="1608740970855" duration="1431000" />
       <workItem from="1608829967929" duration="164000" />
-      <workItem from="1608830137034" duration="3837000" />
+      <workItem from="1608830137034" duration="4944000" />
+      <workItem from="1608835119668" duration="526000" />
     </task>
     <servers />
   </component>
