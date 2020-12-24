@@ -6,10 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1663346d-f059-4470-82db-5bffe68f4235" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/controller/Entrypoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/controller/Entrypoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/entitiy/Temperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/entitiy/Temperature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/repository/TemperatureRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/service/TemperatureService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/temperaturemicroservice/TemperatureMicroserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/temperaturemicroservice/TemperatureMicroserviceApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,16 +98,14 @@
       <recent name="com.lti.util" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TemperatureLoaderTest.getTemperaturesTest">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.AggregatorMicroserviceApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,6 +186,7 @@
       <workItem from="1608829967929" duration="164000" />
       <workItem from="1608830137034" duration="4944000" />
       <workItem from="1608835119668" duration="526000" />
+      <workItem from="1608838275609" duration="480000" />
     </task>
     <servers />
   </component>

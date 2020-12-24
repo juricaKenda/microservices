@@ -13,5 +13,12 @@ public class Temperature {
     @Id
     @GeneratedValue
     private Integer id;
-    private String temperature;
+    private Integer temperature;
+
+    public Temperature() {
+    }
+
+    public Temperature(Integer temperature) {
+        this.temperature = temperature;
+    }
 }
