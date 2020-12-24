@@ -4,10 +4,12 @@ import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
 import com.opencsv.bean.HeaderColumnNameTranslateMappingStrategy;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.experimental.UtilityClass;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
@@ -20,7 +22,7 @@ import java.util.stream.Collectors;
 public class TemperatureLoader {
     private final String PATH = "./measurements.csv";
 
-    private List<String> temperatures;
+    private List<Integer> temperatures;
 
     static {
         List<Measurement> measurements;
@@ -41,13 +43,18 @@ public class TemperatureLoader {
         }
     }
 
-    public List<String> getTemperatures() {
+    public List<Integer> getTemperatures() {
         return temperatures;
     }
 
     private HeaderColumnNameTranslateMappingStrategy<Measurement> makeMappingStrategy() {
         Map<String, String> columnMappings = new HashMap<>();
         columnMappings.put("Temperature", "temperature");
+        columnMappings.put("Pressure", "pressure");
+        columnMappings.put("Humidity", "humidity");
+        columnMappings.put("CO", "co");
+        columnMappings.put("NO2", "no2");
+        columnMappings.put("SO2", "so2");
 
         HeaderColumnNameTranslateMappingStrategy<Measurement> mappingStrategy =
                 new HeaderColumnNameTranslateMappingStrategy<>();
@@ -55,10 +62,5 @@ public class TemperatureLoader {
         mappingStrategy.setType(Measurement.class);
 
         return mappingStrategy;
-    }
-
-    @Data
-    private static class Measurement {
-        private String temperature;
     }
 }

@@ -10,7 +10,7 @@ class TemperatureLoaderTest {
 
     @Test
     public void getTemperaturesTest() {
-        List<String> temperatures = TemperatureLoader.getTemperatures();
+        List<Integer> temperatures = TemperatureLoader.getTemperatures();
         assertTrue(temperatures.size() > 0);
     }
 

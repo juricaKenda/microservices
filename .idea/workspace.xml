@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1663346d-f059-4470-82db-5bffe68f4235" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/util/TemperatureLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/util/TemperatureLoaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/util/Measurement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/measurements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/measurements.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/util/TemperatureLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/util/TemperatureLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/test/java/com/lti/util/TemperatureLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/test/java/com/lti/util/TemperatureLoaderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +50,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -75,6 +77,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/microservices/temperature-microservice/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -89,7 +92,7 @@
       <recent name="com.lti.util" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AggregatorMicroserviceApplication">
+  <component name="RunManager" selected="Gradle.TemperatureLoaderTest.getTemperaturesTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -100,6 +103,27 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="TemperatureLoaderTest.getTemperaturesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/microservices/temperature-microservice" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.lti.util.TemperatureLoaderTest.getTemperaturesTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="AggregatorMicroserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="aggregator-microservice.main" />
@@ -136,6 +160,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.TemperatureLoaderTest.getTemperaturesTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -149,7 +178,7 @@
       <workItem from="1608738730045" duration="46000" />
       <workItem from="1608740970855" duration="1431000" />
       <workItem from="1608829967929" duration="164000" />
-      <workItem from="1608830137034" duration="2376000" />
+      <workItem from="1608830137034" duration="3837000" />
     </task>
     <servers />
   </component>
