@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1663346d-f059-4470-82db-5bffe68f4235" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/controller/Entrypoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/controller/Entrypoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/entitiy/Temperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/entitiy/Temperature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/repository/TemperatureRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/service/TemperatureService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/temperaturemicroservice/TemperatureMicroserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/temperaturemicroservice/TemperatureMicroserviceApplication.java" afterDir="false" />
-    </list>
+    <list default="true" id="1663346d-f059-4470-82db-5bffe68f4235" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

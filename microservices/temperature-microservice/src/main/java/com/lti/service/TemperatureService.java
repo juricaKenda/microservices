@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class TemperatureService {
 
-    private TemperatureRepository temperatureRepository;
+    private final TemperatureRepository temperatureRepository;
 
     public TemperatureService(TemperatureRepository temperatureRepository) {
         this.temperatureRepository = temperatureRepository;
