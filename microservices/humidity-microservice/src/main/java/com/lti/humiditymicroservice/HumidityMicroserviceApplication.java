@@ -13,7 +13,6 @@ import java.util.stream.Collectors;
 public class HumidityMicroserviceApplication {
 
 	public HumidityMicroserviceApplication(HumidityRepository repository) {
-		this.repository = repository;
 		HumidityLoader loader = new HumidityLoader();
 		loader.load();
 		List<Humidity> humidity = loader.getHumidity().stream()
