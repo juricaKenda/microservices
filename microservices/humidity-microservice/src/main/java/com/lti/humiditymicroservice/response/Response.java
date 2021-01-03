@@ -1,0 +1,14 @@
+package com.lti.humiditymicroservice.response;
+
+import lombok.Data;
+
+@Data
+public class Response {
+
+    private Integer temperature;
+    private String message;
+
+    public Response(Integer temperature) {
+        this.temperature = temperature;
+    }
+}
