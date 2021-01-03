@@ -1,4 +1,4 @@
-package com.lti.temperaturemicroservice;
+package com.lti;
 
 import com.lti.entitiy.Temperature;
 import com.lti.repository.TemperatureRepository;
@@ -11,24 +11,17 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @SpringBootApplication
-public class TemperatureMicroserviceApplication implements CommandLineRunner {
-
-	private final TemperatureRepository repository;
+public class TemperatureMicroserviceApplication {
 
 	public TemperatureMicroserviceApplication(TemperatureRepository repository) {
-		this.repository = repository;
+		TemperatureLoader loader = new TemperatureLoader();
+		List<Temperature> temperatures = loader.getTemperatures().stream()
+				.map(Temperature::new)
+				.collect(Collectors.toList());
+		temperatures.forEach(repository::save);
 	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(TemperatureMicroserviceApplication.class, args);
-	}
-
-	@Override
-	public void run(String... args) {
-		List<Temperature> temperatures = TemperatureLoader.getTemperatures().stream()
-				.map(Temperature::new)
-				.collect(Collectors.toList());
-
-		temperatures.forEach(repository::save);
 	}
 }

@@ -3,27 +3,25 @@ package com.lti.util;
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
 import com.opencsv.bean.HeaderColumnNameTranslateMappingStrategy;
-import lombok.experimental.UtilityClass;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-@UtilityClass
 @Slf4j
 public class TemperatureLoader {
-    private final String PATH = "./measurements.csv";
+    private final String PATH = "measurements.csv";
 
     private List<Integer> temperatures;
 
-    static {
+    public TemperatureLoader() {
         List<TemperatureHolder> temperatureHolders;
-        try (BufferedReader reader = new BufferedReader(new FileReader(PATH))) {
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(getClass().getResourceAsStream("/measurements.csv")))) {
             CsvToBean<TemperatureHolder> csvReader = new CsvToBeanBuilder<TemperatureHolder>(reader)
                     .withType(TemperatureHolder.class)
                     .withSeparator(',')

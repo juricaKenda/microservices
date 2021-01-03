@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1663346d-f059-4470-82db-5bffe68f4235" name="Default Changelist" comment="" />
+    <list default="true" id="1663346d-f059-4470-82db-5bffe68f4235" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/measurements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/resources/measurements.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/temperaturemicroservice/TemperatureMicroserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/TemperatureMicroserviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/util/TemperatureLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/util/TemperatureLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/test/java/com/lti/util/TemperatureLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/test/java/com/lti/util/TemperatureLoaderTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,15 +88,23 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/microservices/temperature-microservice/src/main/resources" />
+      <recent name="$PROJECT_DIR$/microservices/temperature-microservice" />
+      <recent name="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.lti.util" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AggregatorMicroserviceApplication">
+  <component name="RunManager" selected="Gradle.TemperatureLoaderTest.getTemperaturesTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -153,7 +167,7 @@
     </configuration>
     <configuration name="TemperatureMicroserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="temperature-microservice.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lti.temperaturemicroservice.TemperatureMicroserviceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lti.TemperatureMicroserviceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
