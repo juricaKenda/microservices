@@ -3,7 +3,6 @@ package com.lti;
 import com.lti.entitiy.Temperature;
 import com.lti.repository.TemperatureRepository;
 import com.lti.util.TemperatureLoader;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
