@@ -15,7 +15,7 @@ public class HumidityMicroserviceApplication {
 	public HumidityMicroserviceApplication(HumidityRepository repository) {
 		HumidityLoader loader = new HumidityLoader();
 		loader.load();
-		List<Humidity> humidity = loader.getHumidity().stream()
+		List<Humidity> humidity = loader.getHumidities().stream()
 				.map(Humidity::new)
 				.collect(Collectors.toList());
 		humidity.forEach(repository::save);

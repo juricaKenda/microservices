@@ -1,6 +1,5 @@
 package com.lti.humiditymicroservice.util;
 
-import com.lti.humiditymicroservice.util.HumidityHolder;
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
 import com.opencsv.bean.HeaderColumnNameTranslateMappingStrategy;
@@ -18,7 +17,7 @@ import java.util.stream.Collectors;
 public class HumidityLoader {
     private static final String PATH = "/measurements.csv";
 
-    private List<Integer> temperatures;
+    private List<Integer> humidities;
 
     public void load() {
         List<HumidityHolder> temperatureHolders;
@@ -31,7 +30,7 @@ public class HumidityLoader {
                     .withMappingStrategy(makeMappingStrategy())
                     .build();
             temperatureHolders = csvReader.parse();
-            temperatures = temperatureHolders.stream()
+            humidities = temperatureHolders.stream()
                     .map(HumidityHolder::getHumidity)
                     .collect(Collectors.toList());
         } catch (IOException e) {
@@ -39,8 +38,8 @@ public class HumidityLoader {
         }
     }
 
-    public List<Integer> getHumidity() {
-        return temperatures;
+    public List<Integer> getHumidities() {
+        return humidities;
     }
 
     private HeaderColumnNameTranslateMappingStrategy<HumidityHolder> makeMappingStrategy() {

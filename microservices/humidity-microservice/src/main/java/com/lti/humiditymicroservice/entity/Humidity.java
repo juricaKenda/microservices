@@ -19,7 +19,7 @@ public class Humidity {
     public Humidity() {
     }
 
-    public Humidity(Integer id) {
-        this.id = id;
+    public Humidity(Integer humidity) {
+        this.humidity = humidity;
     }
 }

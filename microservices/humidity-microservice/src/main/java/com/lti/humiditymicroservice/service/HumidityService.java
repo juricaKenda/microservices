@@ -16,7 +16,8 @@ public class HumidityService {
 
     public Integer getHumidity() {
         int id = generateId();
-        return repository.getById(id).getHumidity();
+        return repository.findAll().get(id).getHumidity();
+        //return repository.getById(id).getHumidity();
     }
 
     private int generateId() {
