@@ -104,7 +104,7 @@
       <recent name="com.lti.util" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TemperatureLoaderTest.getTemperaturesTest">
+  <component name="RunManager" selected="Spring Boot.TemperatureMicroserviceApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>

@@ -15,13 +15,13 @@ import java.util.stream.Collectors;
 
 @Slf4j
 public class TemperatureLoader {
-    private final String PATH = "measurements.csv";
+    private final String PATH = "/measurements.csv";
 
     private List<Integer> temperatures;
 
     public TemperatureLoader() {
         List<TemperatureHolder> temperatureHolders;
-        try (BufferedReader reader = new BufferedReader(new InputStreamReader(getClass().getResourceAsStream("/measurements.csv")))) {
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(getClass().getResourceAsStream(PATH)))) {
             CsvToBean<TemperatureHolder> csvReader = new CsvToBeanBuilder<TemperatureHolder>(reader)
                     .withType(TemperatureHolder.class)
                     .withSeparator(',')
