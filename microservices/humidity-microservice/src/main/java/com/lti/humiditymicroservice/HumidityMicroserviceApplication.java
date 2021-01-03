@@ -12,8 +12,6 @@ import java.util.stream.Collectors;
 @SpringBootApplication
 public class HumidityMicroserviceApplication {
 
-	private HumidityRepository repository;
-
 	public HumidityMicroserviceApplication(HumidityRepository repository) {
 		this.repository = repository;
 		HumidityLoader loader = new HumidityLoader();
