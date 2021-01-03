@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 
 @Slf4j
 public class TemperatureLoader {
-    private final String PATH = "/measurements.csv";
+    private static final String PATH = "/measurements.csv";
 
     private List<Integer> temperatures;
 
