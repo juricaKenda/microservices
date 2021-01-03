@@ -19,6 +19,6 @@ public class TemperatureService {
 
     private int generateId() {
         //TODO implement formula
-        return 0;
+        return 1;
     }
 }
