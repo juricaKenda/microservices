@@ -15,4 +15,11 @@ public class Humidity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
     private Integer humidity;
+
+    public Humidity() {
+    }
+
+    public Humidity(Integer id) {
+        this.id = id;
+    }
 }

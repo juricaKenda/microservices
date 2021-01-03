@@ -1,5 +1,6 @@
-package com.lti.humiditymicroservice;
+package com.lti.humiditymicroservice.util;
 
+import com.lti.humiditymicroservice.util.HumidityHolder;
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
 import com.opencsv.bean.HeaderColumnNameTranslateMappingStrategy;

@@ -1,4 +1,4 @@
-package com.lti.humiditymicroservice;
+package com.lti.humiditymicroservice.util;
 
 import lombok.Data;
 

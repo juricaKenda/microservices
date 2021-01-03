@@ -1,6 +1,5 @@
 package com.lti.humiditymicroservice.util;
 
-import com.lti.humiditymicroservice.HumidityLoader;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
