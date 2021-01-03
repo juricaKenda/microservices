@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1663346d-f059-4470-82db-5bffe68f4235" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/measurements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/resources/measurements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/temperaturemicroservice/TemperatureMicroserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/TemperatureMicroserviceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/util/TemperatureLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/main/java/com/lti/util/TemperatureLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-microservice/src/test/java/com/lti/util/TemperatureLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-microservice/src/test/java/com/lti/util/TemperatureLoaderTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="1663346d-f059-4470-82db-5bffe68f4235" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,6 +97,13 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.lti.util" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.TemperatureMicroserviceApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
