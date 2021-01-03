@@ -3,6 +3,8 @@ package com.lti.service;
 import com.lti.repository.TemperatureRepository;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalTime;
+
 @Service
 public class TemperatureService {
 
@@ -18,7 +20,9 @@ public class TemperatureService {
     }
 
     private int generateId() {
-        //TODO implement formula
-        return 1;
+        LocalTime now = LocalTime.now();
+        int hour = now.getHour();
+        int minute = now.getMinute();
+        return 4 * hour + minute / 15;
     }
 }

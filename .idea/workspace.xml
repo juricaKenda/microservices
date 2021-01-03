@@ -202,4 +202,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="temperatureRepository.findAll()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
 </project>
